@@ -14,4 +14,5 @@ dependencies = [
     "pexpect",
     "stack_data",
     "ipykernel>=7.4.0",
+    "torchvision",
 ]
