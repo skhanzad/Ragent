@@ -17,7 +17,7 @@ def main():
         [30, 1],
         titles="Logistic Regression: Direct Classifier\n30 Features → Binary Output",
         arrows=True,
-        node_radius=0.25
+        neuron_size=0.25
     )
     pic1.add(net1)
     pic1.render("logistic_simple.png")
@@ -30,7 +30,7 @@ def main():
         [30, 20, 10, 5, 1],
         titles="Logistic Regression: Multi-Layer Architecture",
         arrows=True,
-        node_radius=0.15
+        neuron_size=0.15
     )
     pic2.add(net2)
     pic2.render("logistic_multilayer.png")
@@ -43,7 +43,7 @@ def main():
         [30, 25, 15, 10, 5, 2, 1],
         titles="Logistic Regression: Deep Architecture",
         arrows=True,
-        node_radius=0.12
+        neuron_size=0.12
     )
     pic3.add(net3)
     pic3.render("logistic_deep.png")
@@ -56,7 +56,7 @@ def main():
         [30, 16, 8, 1],
         titles="Logistic Regression: Breast Cancer Classification\nAccuracy: 98.25% | Precision: 98.53% | Recall: 98.53% | F1: 98.53%",
         arrows=True,
-        node_radius=0.18
+        neuron_size=0.18
     )
     pic4.add(net4)
     pic4.render("logistic_metrics.png")
