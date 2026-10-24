@@ -9,5 +9,9 @@ dependencies = [
     "numpy",
     "tqdm",
     "pytikz-diagrams",
-    "scikit-learn"
+    "scikit-learn",
+    "matplotlib",
+    "pexpect",
+    "stack_data",
+    "ipykernel>=7.4.0",
 ]
