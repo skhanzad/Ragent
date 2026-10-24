@@ -1,0 +1,13 @@
+[project]
+name = "ragent"
+version = "0.1.0"
+description = "A from-scratch LLM + RAG + agent stack in plain PyTorch."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.2",
+    "numpy",
+    "tqdm",
+    "pytikz-diagrams",
+    "scikit-learn"
+]
